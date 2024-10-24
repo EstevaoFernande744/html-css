@@ -85,4 +85,5 @@ para fazer o <> aparecer precisamos colocar o &lt; e &gt;
 <!--Comentario no html-->
 
 [emojipedia.org](https://emojipedia.org/)
-
+https://unsplash.com/pt-br/
+https://www.pexels.com/pt-br/

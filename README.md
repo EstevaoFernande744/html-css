@@ -83,3 +83,6 @@ Full stack: Desenvolvedor quem domina tanto o Front-end quanto Back-end.
 para fazer o <> aparecer precisamos colocar o &lt; e &gt;
 
 <!--Comentario no html-->
+
+[emojipedia.org](https://emojipedia.org/)
+

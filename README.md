@@ -81,3 +81,5 @@ Full stack: Desenvolvedor quem domina tanto o Front-end quanto Back-end.
 <hr> linha horizontal.
 <br> serve para quebraar linhas.
 para fazer o <> aparecer precisamos colocar o &lt; e &gt;
+
+<!--Comentario no html-->

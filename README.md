@@ -72,10 +72,12 @@ Entendendo a estrutura de um codigo em HTML:
 |
 </html> com sua tag de fechamento.
 
-Font-end, Back-end e Full stack
+Font-end, Back-end e Full stack.
 
 Front-end: Desenvolvedor que utiliza tecnologias como HTML, CSS e JS. Tecnologias que vão trabalhar ao lado do cliente.
 Back-end: Desenvolvedor que utiliza tecnologias como PHP, JS, C#, Python.. para trabalhar ao lado do servidor.
 Full stack: Desenvolvedor quem domina tanto o Front-end quanto Back-end.
 
-
+<hr> linha horizontal.
+<br> serve para quebraar linhas.
+para fazer o <> aparecer precisamos colocar o &lt; e &gt;

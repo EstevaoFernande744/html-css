@@ -94,5 +94,7 @@ png - tem a capacidade de transparencia;
 
 https://www.favicon.cc/ - para desenhar o icone
 https://www.favicon.io/ - melhor site para o icone
+https://www.iconarchive.com/
+
 
 

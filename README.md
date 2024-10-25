@@ -33,7 +33,7 @@ src e alt são parâmetros / foto.png e foto escolhida são valores
 Parâmetro: src é source que quer dizer origem. O alt é o nome da imgagem.
 Valor: o foto.png é o local onde esta a imagem. Caso não tenha a imagem solicitada, vai mostar o texto alternativo que é foto escolhida.
 
-h1{
+h1 {
     font-family: Arial;
     font-size: 20pt;
     color: blue;
@@ -87,3 +87,8 @@ para fazer o <> aparecer precisamos colocar o &lt; e &gt;
 [emojipedia.org](https://emojipedia.org/)
 https://unsplash.com/pt-br/
 https://www.pexels.com/pt-br/
+
+fortamos de imagem:
+jpeg - alto nivel de compactação; (jpg)
+png - tem a capacidade de transparencia;
+

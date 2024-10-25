@@ -111,3 +111,6 @@ A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não
 <ins></ins> - Serve para sublinhar e dizer que o texto em questão foi inserido.
 
 <u></u> - Forma não semântica de sublinhar o texto.
+
+<sup></sup> - Para colocar elevado.
+<sub></sub> - Para colocar logaritmo e elementos quimicos por exemplo.

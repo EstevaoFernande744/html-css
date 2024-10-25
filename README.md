@@ -104,3 +104,10 @@ Existem dois tipos de formas de de deixar uma palavra ou frase em negrito ou it�
 
 A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não possuem significado, são apenas comando e o <strong> e <em> possuem semântica.
 
+<mark></mark> - Essa tag tem por finalidade marcar o texto, marcando com amarelo sempre no HTML, já no caso do CSS conseguimos alterar a cor da marcação.
+
+<del></del> - Serve para riscar o texto.
+
+<ins></ins> - Serve para sublinhar e dizer que o texto em questão foi inserido.
+
+<u></u> - Forma não semântica de sublinhar o texto.

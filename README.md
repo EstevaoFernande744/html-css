@@ -100,4 +100,17 @@ https://www.iconarchive.com/
 <h2></h2> - Subtitulo de h1
 <h3></h3> - Subtitulo de h2 e ai por diante.
 
+Existem dois tipos de formas de de deixar uma palavra ou frase em negrito ou itálico, com o <b></b>, <strong></strong> para negrito, <i></i>, <em></em> para itálico.
 
+A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não possuem significado, são apenas comando e o <strong> e <em> possuem semântica.
+
+<mark></mark> - Essa tag tem por finalidade marcar o texto, marcando com amarelo sempre no HTML, já no caso do CSS conseguimos alterar a cor da marcação.
+
+<del></del> - Serve para riscar o texto.
+
+<ins></ins> - Serve para sublinhar e dizer que o texto em questão foi inserido.
+
+<u></u> - Forma não semântica de sublinhar o texto.
+
+<sup></sup> - Para colocar elevado.
+<sub></sub> - Para colocar logaritmo e elementos quimicos por exemplo.

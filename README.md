@@ -121,3 +121,7 @@ A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não
 <blockquote><blockquote> - Uma forma mais complexa de citar, onde tem um desvio lateral, com o texto destacado.
 <abbr></abbr> - Serve para criar um pop-up com o significado da sigla.
 <bdo></bdo> - tem a configuração <bdo dir="rtl right to left ou também ltr left to right"></bdo>, as letras começam da esquerda para direito ou da direita pra esquerda.
+
+Para criar listas ordenadas temos o comando <ol></ol> - Para criar uma ordered list, ou seja lista ordenada, dentro disso temos os <li></li> - listed item, ou seja itens listados, podendo também escolher o tipo dessa lista, <ol type=""> os tipos são 1, A, a, I e i, com a opção também de <ol start=""> podendo ser iniciada com a numeração escolhida. 
+
+Para criar listas não ordenadas temos o comando <ul></ul> - unordered list ou seja listas não ordenadas, semelhante as listas ordenadas usamos também o comando <li> também temos o comando type que pode ser <ul type="disc/circle/square">

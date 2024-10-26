@@ -125,3 +125,36 @@ A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não
 Para criar listas ordenadas temos o comando <ol></ol> - Para criar uma ordered list, ou seja lista ordenada, dentro disso temos os <li></li> - listed item, ou seja itens listados, podendo também escolher o tipo dessa lista, <ol type=""> os tipos são 1, A, a, I e i, com a opção também de <ol start=""> podendo ser iniciada com a numeração escolhida. 
 
 Para criar listas não ordenadas temos o comando <ul></ul> - unordered list ou seja listas não ordenadas, semelhante as listas ordenadas usamos também o comando <li> também temos o comando type que pode ser <ul type="disc/circle/square">
+
+Podemos colocar uma sublista dentro da lista com a configuração do tipo;
+
+<ul>
+    <li>exemplo 1</li>
+    <ul type="circle"><!--disc, circle, square-->
+        <li>subexemplo 1</li>
+    </ul>
+    <li>exemplo 2</li>
+</ul>
+
+<ol>
+    <li>exemplo 1</li>
+    <ol type="circle"><!--1, A, a, I, i-->
+        <li>subexemplo 1</li>
+    </ol>
+    <li>exemplo 2</li>
+</ol>
+
+Existem também as Listas de Definições que são escritar pelo configuração:
+
+<dl>
+        <dt>HTML</dt> <!--Termo--> 
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        
+</dl>
+
+onde o dt é para o termo onde vamos descrever, já o dd é a definição do termo.
+

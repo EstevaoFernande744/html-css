@@ -158,3 +158,7 @@ Existem também as Listas de Definições que são escritar pelo configuração:
 
 onde o dt é para o termo onde vamos descrever, já o dd é a definição do termo.
 
+Para criar um link utilizamos a tag <a></a> - envelopando o texto que queremos para ligar a um link, sendo que podemos implementar também o comando de <a href="URL" target="_blank" rel="external"> <!--_blank para abrir em outra aba-->, <!--rel para indicar ao navegador que é um link externo-->
+
+Para criar um link interno, podemos usar desse codigo <a href="pag002.html" rel="next"> que diz a página na qual desejamos ir ao clickar nesse link, o rel diz que essa página que estou abrindo com o link pe a proxima página do meu site, já na proxima página com o comando <p><a href="index.html" rel="previous"> podemos gerar um link para voltar a pagina anterior e com o comando rel="previous ou prev" dizemos que a pagina anterior a essa atual é a pagina index.htmml. Sendo que esse comando rel é um comando de semântica.
+

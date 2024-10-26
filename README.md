@@ -168,3 +168,7 @@ Outro comando do target="" que funciona é o _self para abrir na propria página
 
 Para voltar para a página anterioro no href precisamos colocar o comando href="../nome.do.arquivo".
 
+Para baixar um item podemos usar o comando <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf"> e para descobrir o mida type podemos acessar. (Em alguns navegadores como chrome o comando download não funciona.)
+
+iana.org/assignments/media-types/
+

@@ -114,3 +114,10 @@ A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não
 
 <sup></sup> - Para colocar elevado.
 <sub></sub> - Para colocar logaritmo e elementos quimicos por exemplo.
+
+<code></code> - Fonte para codigos, fonte mono espaçada.
+<pre></pre> - Serve para salvar a formatação.
+<q></q> - Significa quote, ou sitação, para colocar as aspas.
+<blockquote><blockquote> - Uma forma mais complexa de citar, onde tem um desvio lateral, com o texto destacado.
+<abbr></abbr> - Serve para criar um pop-up com o significado da sigla.
+<bdo></bdo> - tem a configuração <bdo dir="rtl right to left ou também ltr left to right"></bdo>, as letras começam da esquerda para direito ou da direita pra esquerda.

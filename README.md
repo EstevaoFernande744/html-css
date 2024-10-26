@@ -114,3 +114,61 @@ A diferença desses dessas formas é  semântica, onde os comando <b> e <i> não
 
 <sup></sup> - Para colocar elevado.
 <sub></sub> - Para colocar logaritmo e elementos quimicos por exemplo.
+
+<code></code> - Fonte para codigos, fonte mono espaçada.
+<pre></pre> - Serve para salvar a formatação.
+<q></q> - Significa quote, ou sitação, para colocar as aspas.
+<blockquote><blockquote> - Uma forma mais complexa de citar, onde tem um desvio lateral, com o texto destacado.
+<abbr></abbr> - Serve para criar um pop-up com o significado da sigla.
+<bdo></bdo> - tem a configuração <bdo dir="rtl right to left ou também ltr left to right"></bdo>, as letras começam da esquerda para direito ou da direita pra esquerda.
+
+Para criar listas ordenadas temos o comando <ol></ol> - Para criar uma ordered list, ou seja lista ordenada, dentro disso temos os <li></li> - listed item, ou seja itens listados, podendo também escolher o tipo dessa lista, <ol type=""> os tipos são 1, A, a, I e i, com a opção também de <ol start=""> podendo ser iniciada com a numeração escolhida. 
+
+Para criar listas não ordenadas temos o comando <ul></ul> - unordered list ou seja listas não ordenadas, semelhante as listas ordenadas usamos também o comando <li> também temos o comando type que pode ser <ul type="disc/circle/square">
+
+Podemos colocar uma sublista dentro da lista com a configuração do tipo;
+
+<ul>
+    <li>exemplo 1</li>
+    <ul type="circle"><!--disc, circle, square-->
+        <li>subexemplo 1</li>
+    </ul>
+    <li>exemplo 2</li>
+</ul>
+
+<ol>
+    <li>exemplo 1</li>
+    <ol type="circle"><!--1, A, a, I, i-->
+        <li>subexemplo 1</li>
+    </ol>
+    <li>exemplo 2</li>
+</ol>
+
+Existem também as Listas de Definições que são escritar pelo configuração:
+
+<dl>
+        <dt>HTML</dt> <!--Termo--> 
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!--Descrição-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+        
+</dl>
+
+onde o dt é para o termo onde vamos descrever, já o dd é a definição do termo.
+
+Para criar um link utilizamos a tag <a></a> - envelopando o texto que queremos para ligar a um link, sendo que podemos implementar também o comando de <a href="URL" target="_blank" rel="external"> <!--_blank para abrir em outra aba-->, <!--rel para indicar ao navegador que é um link externo-->
+
+Para criar um link interno, podemos usar desse codigo <a href="pag002.html" rel="next"> que diz a página na qual desejamos ir ao clickar nesse link, o rel diz que essa página que estou abrindo com o link pe a proxima página do meu site, já na proxima página com o comando <p><a href="index.html" rel="previous"> podemos gerar um link para voltar a pagina anterior e com o comando rel="previous ou prev" dizemos que a pagina anterior a essa atual é a pagina index.htmml. Sendo que esse comando rel é um comando de semântica.
+
+<a href="www.telecab.com.br" target="_blank" rel="nofollow"> esse tipo de rel serve para dizer que você não da o aval para esse conteudo.
+
+Outro comando do target="" que funciona é o _self para abrir na propria página.
+
+Para voltar para a página anterioro no href precisamos colocar o comando href="../nome.do.arquivo".
+
+Para baixar um item podemos usar o comando <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf"> e para descobrir o mida type podemos acessar. (Em alguns navegadores como chrome o comando download não funciona.)
+
+iana.org/assignments/media-types/ - site para types.
+

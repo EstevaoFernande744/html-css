@@ -162,3 +162,9 @@ Para criar um link utilizamos a tag <a></a> - envelopando o texto que queremos p
 
 Para criar um link interno, podemos usar desse codigo <a href="pag002.html" rel="next"> que diz a página na qual desejamos ir ao clickar nesse link, o rel diz que essa página que estou abrindo com o link pe a proxima página do meu site, já na proxima página com o comando <p><a href="index.html" rel="previous"> podemos gerar um link para voltar a pagina anterior e com o comando rel="previous ou prev" dizemos que a pagina anterior a essa atual é a pagina index.htmml. Sendo que esse comando rel é um comando de semântica.
 
+<a href="www.telecab.com.br" target="_blank" rel="nofollow"> esse tipo de rel serve para dizer que você não da o aval para esse conteudo.
+
+Outro comando do target="" que funciona é o _self para abrir na propria página.
+
+Para voltar para a página anterioro no href precisamos colocar o comando href="../nome.do.arquivo".
+

@@ -196,3 +196,4 @@ podemos colocar no <audio preload="auto/metadata/none"> onde o preload é para c
 Para colocar vídeos temos o espaço <video> o item poster="" vem a ser uma imagem que você queira mostrar antes de começar o video.
 
 Também tem a opção de colocar o vídeo do proprio site, como Youtube simplismente simplismente indo em compartilhar e incorporar.
+

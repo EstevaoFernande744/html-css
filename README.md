@@ -174,3 +174,13 @@ iana.org/assignments/media-types/ - site para types.
 
 <picture></picture> - Espaço para utilizar imagens dinâmicas, quando usamos <source media="(max-width: 00px)" srcset="caminho/nome-da-foto" type="image/png"> <img src="caminho/nome-da-foto" alt="legenda"> - e ai quando rolarmos o navegador substitui a foto, então sempre colocando o source antes da img.
 
+<audio src="caminho/nome-do-audio" autoplay controls loop> <!--MP3 WAV OGG são os formatos do áudio--> o autoplay sendo o comando para tocar automatico, controls para mostrar o controlador de play e loop faz com que o audio fique reiniciando assim que acabar.
+
+<audio>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <!--<source src="midia/guanacast-33.ogg" type="audio/ogg">
+    <source src="midia/guanacast-33.wav" type="audio/wav">--> 
+</audio>
+Criamos o espaço <audio> colocamos os elementos <source> e depois colocamos o arquivo de áudio de acordo com o formato, segundo sempre a ordem, primeiro mp3, depois os outros dois, pois vai carregar de acordo com a sequencia.
+
+podemos colocar no <audio preload="auto/metadata/none"> onde o preload é para carregar o site quando carregar o áudio, então se colocar auto, pode não carregar nada ou carregar só alguns itens ate abrir o audio, e o metadata é carregar esses alguns nomes e etc.

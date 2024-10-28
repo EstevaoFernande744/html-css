@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+.greenpage {
+    background-color: rgb(119, 233, 115);
+    color: rgb(32, 158, 32);
+}
+
+.yellowpage {
+    background-color: rgba(209, 194, 111, 0.808);
+    color: rgb(211, 175, 59);
+}
+
+p {
+    text-indent: 50px;
+}

@@ -88,6 +88,8 @@ para fazer o <> aparecer precisamos colocar o &lt; e &gt;
 https://unsplash.com/pt-br/
 https://www.pexels.com/pt-br/
 
+Para gerar emois você precisar usar o codigo do emoji que geralmente vem nesse formato U+1F44D e substituir por &#xF44D;
+
 fortamos de imagem:
 jpeg - alto nivel de compactação; (jpg)
 png - tem a capacidade de transparencia;

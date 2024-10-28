@@ -1,0 +1,8 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão como Arial; caso não disponível, usa Helvetica ou uma fonte sem serifa */
+    font-size: 16px; /* Define o tamanho da fonte para todos os elementos */
+}
+
+p {
+    text-indent: 50px;
+}

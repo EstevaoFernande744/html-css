@@ -184,3 +184,13 @@ iana.org/assignments/media-types/ - site para types.
 Criamos o espaço <audio> colocamos os elementos <source> e depois colocamos o arquivo de áudio de acordo com o formato, segundo sempre a ordem, primeiro mp3, depois os outros dois, pois vai carregar de acordo com a sequencia.
 
 podemos colocar no <audio preload="auto/metadata/none"> onde o preload é para carregar o site quando carregar o áudio, então se colocar auto, pode não carregar nada ou carregar só alguns itens ate abrir o audio, e o metadata é carregar esses alguns nomes e etc.
+
+<video width="500" poster="imagens/limoes-capa.png" controls>
+    <sorce src="midia/meu-video.mp4" type="video/mp4"> 
+    <sorce src="midia/meu-video.m4v" type="video/m4v"> 
+    <source src="midia/meu-video.webm" type="video/webm">
+    <sorce src="midia/meu-video.ogv" type="video/ogg"> 
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+</video>
+
+Para colocar vídeos temos o espaço <video> o item poster="" vem a ser uma imagem que você queira mostrar antes de começar o video.

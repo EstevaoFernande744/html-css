@@ -172,3 +172,5 @@ Para baixar um item podemos usar o comando <li><a href="livro/meulivro.pdf" down
 
 iana.org/assignments/media-types/ - site para types.
 
+<picture></picture> - Espaço para utilizar imagens dinâmicas, quando usamos <source media="(max-width: 00px)" srcset="caminho/nome-da-foto" type="image/png"> <img src="caminho/nome-da-foto" alt="legenda"> - e ai quando rolarmos o navegador substitui a foto, então sempre colocando o source antes da img.
+

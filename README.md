@@ -244,3 +244,26 @@ https://www.w3schools.com/cssref/css_websafe_fonts.php
 
 Site para ver o que chamamos de safe combinations font;
 
+Quando usamos o comando font-family, é interessante também usar da seguinte forma;
+
+font-family: Arial, Helvetica, sans-serif;
+
+É uma combinação segura, pois caso o dispositivo não reconheça a fonte Arial, ele substituirá pela Helvetica ou por alguma fonte sans-serif ou sejá sem serifa.
+
+quando vamos trabalhar com muitos titulos no arquivo CSS podemos padronizar todos os titulos usando a virgula;
+
+h1,h2 {
+    font-family: Times;
+}
+
+/*medidas absolutas 
+cm, mm, in, px, pt, pc
+    
+medidas relativas
+em, ex, rem, vw, vh, % */
+
+são recomendadas usar medidas px e em;
+
+a medida de px e em são interligadas, 16px é a medida padrão das telas e etc e 16px é o equivalente a 1em;
+
+

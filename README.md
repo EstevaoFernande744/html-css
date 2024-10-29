@@ -240,3 +240,7 @@ text-shadow: 1px 1px 2px #021c27a8; <!-- Cria sombra abaixo do texto com dimenç
 text-align: justify; <!-- Escolhe tipo de parágrafo -->
 text-indent: 50px; <!-- Faz a identação do nosso parágrafo -->
 
+https://www.w3schools.com/cssref/css_websafe_fonts.php
+
+Site para ver o que chamamos de safe combinations font;
+

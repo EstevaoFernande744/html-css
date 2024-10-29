@@ -213,3 +213,15 @@ https://coolors.co/
 
 Site para sugerir paleta de cores de maneira mais simples.
 
+Podemos fazer um gradiente na pagina com as CSS usando:
+
+body{
+    background-image: linear-gradient(45deg, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579); <!-- Para implementar as cores em forma de degrade -->
+    background-attachment: fixed; <!-- Para fixar a imagem no fundo inteiro -->
+}
+
+sendo que o graadient pode variar de linear-gradient e radial-gradient, 
+
+*{
+    /* configurações globai das CSS */
+}

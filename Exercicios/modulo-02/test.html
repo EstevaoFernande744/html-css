@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <img src="TELECAB.png" alt="Telecab" class="logo">
+            <form action="{{ url_for('login') }}" method="POST">
+                <input type="text" name="username" placeholder="Usuário" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button> 
+                <button type="button" onclick="window.location.href='{{ url_for('forgot_password') }}'">Esqueci minha senha</button>
+                <button type="button" onclick="window.location.href='{{ url_for('register') }}'">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+

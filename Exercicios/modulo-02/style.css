@@ -1,0 +1,53 @@
+body {
+    
+    background-image: linear-gradient(to bottom, #1D4964, #F26F45);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #ffffff; /* Azul para o fundo *//* Tom de azul para a caixa de login */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px; /* Largura da caixa de login */
+}
+
+.logo {
+    width: 300px; /* Tamanho do logo */
+    display: block;
+    margin: 0 auto; /* Centraliza o logo */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 20px); /* Largura total menos padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #f15f23; /* Cor laranja */
+    color:rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    margin: 5px 0; /* Espaçamento entre os botões */
+    width: 100%; /* Botões ocupam toda a largura */
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f15f23; /* Cor laranja mais escura no hover */
+}

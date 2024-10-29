@@ -201,3 +201,7 @@ Também tem a opção de colocar o vídeo do proprio site, como Youtube simplism
 
 Cores , color="Rgb(x, x, x)" valores de red, green and blue, também temos o #xxxxxx sistema decimal de cores ou hexadecimal, onde colocamos os 2 primeiros valores vermelho os dois valores posteriores de verde e os ultimos 2 de azul, temos o hsl ou sejá matiz, saturation e luminosity, matiz é o que define as cores, saturação é a intensidade ou pureza de uma cor e liminosidade é seu brilho.
 
+https://color.adobe.com/pt/create/color-wheel 
+
+Site para gerar paleta de cores.
+

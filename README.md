@@ -225,3 +225,18 @@ sendo que o graadient pode variar de linear-gradient e radial-gradient,
 *{
     /* configurações globai das CSS */
 }
+
+Dentro das CSS podemos fazer o uso de:
+
+background-color: white; <!-- Cria um caixa de fundo -->
+border-radius: 15px; <!-- Deixa as bordas aredondadas -->
+box-shadow: 5px 5px 15px  #02423c9f; <!-- Deixa sombra na caixa-->
+width: 600px; <!-- Diz o tamanho da caixa -->
+padding: 10px; <!-- Cria um espaçamento entre o final do texto e a caixa -->
+margin: auto; <!-- Deixa a caixa sempre no meio da pagina -->
+
+text-align: center; <!-- Alinha o texto no centro, serve principalmente para títulos -->
+text-shadow: 1px 1px 2px #021c27a8; <!-- Cria sombra abaixo do texto com dimenções e cor -->
+text-align: justify; <!-- Escolhe tipo de parágrafo -->
+text-indent: 50px; <!-- Faz a identação do nosso parágrafo -->
+

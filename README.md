@@ -312,3 +312,10 @@ Tipos de formatos para as fontes:
 - embedded-opentype
 - truetype-aat (Apple Advanced Typography)
 - svg
+
+
+Sites para identificar fontes em imagens:
+
+https://www.whatfontis.com/ - melhor
+https://www.myfonts.com/
+

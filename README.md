@@ -266,4 +266,49 @@ são recomendadas usar medidas px e em;
 
 a medida de px e em são interligadas, 16px é a medida padrão das telas e etc e 16px é o equivalente a 1em;
 
+Das funções width, height e weight:
 
+Width = refere-se a altura;
+height = refere-se a largura;
+weight = refere-se a peso;
+
+ou seja o comando font-weight tem por função determinar o peso da fonte, ou o comprimento interno da fonte.
+
+Existem pesos pre-definidos:
+
+lighter
+normal
+bold
+bolder
+
+ou a variação númerica que vai de 100-900;
+
+Nem todas as fontes possuiem essas configurações!
+
+font-style: normal; ou font-style: italic; para deixar a fonte em italico.
+
+text-decoration: underline; para sublinhar o texto.
+
+Existe uma configuração que é padrão para o corpo do texto;
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+}
+
+Chamada shorthand font --> font-style -> font-weight -> font-size -> font-family
+
+font: italic bolder 3em 'Work Sans', sans-serif;
+
+podendo também fazer:
+
+font: bolder 3em 'Work Sans'; podendo tirar o italic e etc.
+
+Tipos de formatos para as fontes:
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg

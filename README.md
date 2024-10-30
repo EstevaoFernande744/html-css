@@ -436,3 +436,17 @@ Se acostumar a usar div semâticas como
 <footer>    <!-- Para gerar a nota de rodapé -->
 </footer>
 
+essa estrutura pode ser variada;
+
+Bordas personalizadas:
+
+Conseguimos personalizar a borda utilizando os comandos:
+
+border-image-source: url('borda.png'); /* Colocar uma imagem como borda */
+
+border-image-slice: 27; /* Colocar o tamanho da imagem na borda */
+
+border-image-repeat: repeat; /* Para repetir a imagem da borda */
+
+#shorthand = border-image: url('borda.png') 27 repeat;
+

@@ -374,3 +374,65 @@ Pseudo elemento
 ::after      depois da ação fazer outra ação
 ::before     antes da ação fazer outra coisa 
 
+Para melhor descrever configurações nas CSS:
+
+Em vez de trabalhar com:
+
+border-top: ;
+border-right: ;
+border-bottom: ;
+border-left: ;
+
+Se os 4 valores forem iguais então você pode utilziar simplismente border: 10px; por exemplo.
+
+Caso você queira um retangulo onde dois lados são iguais, voice pode colocar da seguinte forma:
+
+border:10px 20px;
+
+Vai ser equivalente a isso:
+
+border-top: 10px;
+border-right: 20px;
+border-bottom: 10px;
+border-left: 20px;
+
+Caso queiramos colocar os 4 valores literalmente também podemos fazer o seguinte;
+
+border: 10px 20px 30px 40px;
+
+Seria equivalente a fazer isso:
+
+border-top: 10px;
+border-right: 20px;
+border-bottom: 30px;
+border-left: 40px;
+
+Podemos reduzir as linhas de codigo também  com essa shorthand:
+
+border: width style color;
+
+Substituimos o width pelas dimensões, Style pelo estilo da borda e color pela cor da borda;
+
+Podendo fazer isso para border, padding, outline, background e etc.
+
+Podemos transformar o display da caixa usando o comando display: inline, block ou inline-block(onde podemos mudar as dimensões e etc ou sejá ele tem algumas caracteristicas de block);
+
+Se acostumar a usar div semâticas como 
+
+<header>    <!-- Para gerar titulo e icone da pagina/site -->
+<nav>       <!-- Para colocar o menu/navegação -->
+</nav>
+</header>
+
+<main>      <!-- Para estrututa principal do corpo -->
+<section>   <!-- Para gerar a seção -->
+<article>   <!-- Para gerar um artigo -->
+<aside>     <!-- Para citar o autor -->
+<aside>
+</article>
+</section>
+</main>
+
+<footer>    <!-- Para gerar a nota de rodapé -->
+</footer>
+

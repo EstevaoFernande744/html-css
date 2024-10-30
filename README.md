@@ -319,3 +319,17 @@ Sites para identificar fontes em imagens:
 https://www.whatfontis.com/ - melhor
 https://www.myfonts.com/
 
+Class e e ID:
+
+HTML       CSS
+id         # seletor no css (só pode um elemento)
+class      . seletor no css (pode vários elementos)
+
+Diferença entre id e class
+
+O id é utilizado para 1 elemento unico, class é utilizado para multiplos seletores;
+
+Qualquer elemento com a class tipo, <h1 class="exemplo"> se pegarmos um <span class="exemplo"> os dois elementos vão ter as caracteristicas da class exemoplo.
+
+Sendo que as configurações utilizadas são substituidas;
+

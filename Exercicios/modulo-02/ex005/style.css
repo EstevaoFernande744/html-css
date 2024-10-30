@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#d1 {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#d2 {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#d3 {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#d1:hover {
+    background-color: yellow;
+}
+
+#d2:hover {
+    background-color: yellow;
+}
+
+#d3:hover {
+    background-color: yellow;
+}
+
+div {
+    background-color: orangered;
+    width: 100px;
+    text-align: center;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    text-align: center;
+    display: block;
+    background-color: orange;
+    height: 500px;
+    width: 200px;
+}

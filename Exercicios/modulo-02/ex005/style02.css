@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #3b3b3be1;
+}
+
+a:hover {
+    color: #3b3b3be1;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a::after {
+    content: '[\22B2]';
+    text-decoration: none;
+    font-weight: normal;
+    color: red;
+}
+
+a::before {
+    content: '[\22B3]';
+    text-decoration: none;
+    font-weight: normal;
+    color: red;
+}

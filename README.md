@@ -333,3 +333,44 @@ Qualquer elemento com a class tipo, <h1 class="exemplo"> se pegarmos um <span cl
 
 Sendo que as configurações utilizadas são substituidas;
 
+Existem os Pseudo classes, um exemplo disso é o 
+
+:hover
+
+quando colocamos um seletor com a pclass :hover, queremos que quando passar o mouse por cima do objeto do seletor, vai ter uma interação;
+
+<p></p>
+
+p:hover {
+    color: yellow; 
+}
+
+Quando passar o mouse por cima o texto vai ficar amarelo;
+
+Se criarmos um elemento <div> <p></p> </div>
+
+div > p {
+    display:none;
+}
+
+Se colocarmos esse simbolo, dizemos que esse pargrafo esta dentro da div, com o comando display none para não mostrar o paragrafo, faz com que ele não apareça;
+
+Para mostrar esse texto podemos criar:
+
+div:hover > p {
+    display:block;
+}
+
+Para mostrar o texto quando passar o mouse;
+
+Pseudo classes
+
+:hover       fazendo quando passar o mouse
+:visited     interação quando o site for visitado
+:active      quando clicar fazer
+
+Pseudo elemento
+
+::after      depois da ação fazer outra ação
+::before     antes da ação fazer outra coisa 
+

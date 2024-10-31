@@ -454,4 +454,9 @@ Site muito bom para configurar o seu projeto de site:
 
 https://mockflow.com
 
+Sites geradores de qr codes:
+
+https://www.qr-code-generator.com/
+https://qr.io/dashboard/
+
 

@@ -19,3 +19,12 @@ td, th {
     border: 1px solid black;
     padding: 10px;
 }
+
+.legend {
+    background-color: gray;
+    color: white;
+}
+
+#med1, #med2 {
+    text-align: left;
+}

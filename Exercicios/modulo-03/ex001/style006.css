@@ -7,6 +7,13 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
+    /* Shorthand - Background
+        color > image > position > repeat > attachment
+    */
+
+   /* background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;*/
 }
 
 main {

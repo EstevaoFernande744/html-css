@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis perferendis saepe vero dolorum quas aut! Laudantium ad quos expedita animi? Placeat, sapiente similique. Aspernatur ab odio ipsum totam voluptatum a.</p>
+
+    <iframe src="pag004.html" sandbox="allow-scripts allow-same-origin allow-forms" referrerpolicy="no-referrer">
+        Seu navegador não é compatível com isso ...
+    </iframe>
+
+    <!-- Para proteger nosso iframe podemos utilziar de dois comando expecificos
+     
+    sandbox="sandbox" - forma mais protegida;
+    sandbox="allow-forms" - permite o acesso a formulario;
+    sandbox="allow-same-origin" - Permite que sejá utilizado se o arquivo estiver no mesmo local de origem;
+    sandbox="allow-scripts" - permite scripts
+
+    referrerpolicy="no-referrer-when-downgrade" ou apenas "no-referrer" - esse comando serve para que o conteudo do iframe não tenha acesso a informações por uma exemplo, calculo de algoritmo.
+    -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit beatae rerum aliquam tempora non dolores exercitationem possimus sint cum explicabo suscipit, maxime, delectus cumque totam provident amet perferendis nobis impedit!</p>
+
+</body>
+</html>

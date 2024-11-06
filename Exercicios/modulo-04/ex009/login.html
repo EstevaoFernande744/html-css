@@ -25,18 +25,19 @@
                 <form action="login.php" method="post" autocomplete="on">
                         
                         <div class="campo">
-                            <i class="material-icons">account_circle</i>
+                            <label for="ilogin"><i class="material-icons">account_circle</i></label>
                             <input type="email" name="login" id="ilogin"
                             placeholder="Seu email" autocomplete="email" required maxlength="30">
                         </div>
                         <div class="campo">
-                            <i class="material-icons">lock</i>
+                            <label for="isenha"><i class="material-icons">lock</i></label>
                             <input type="password" name="Senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8"
                             maxlength="20">
                         </div>
 
+                    
                     <input class="botoes" type="submit" value="Entrar">
-                    <a id="fpassword" href="esqueci.html">Esqueci a senha</a>
+                    <a id="fpassword" href="esqueci.html"><strong>Esqueci a senha</strong></a>
                 </form>
             </div>
 

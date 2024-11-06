@@ -11,7 +11,7 @@ Grandes Telas: acima de 1200px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
         width: 70vw;
-        height: 70vh;
+        height: 50vh;
         position:relative
     }
 
@@ -31,6 +31,7 @@ Grandes Telas: acima de 1200px */
         padding: 10px;
         text-align: center;
         font-size: 1.5em;
+        margin-bottom: 35px;
     }
     
     h2 {
@@ -38,6 +39,19 @@ Grandes Telas: acima de 1200px */
         text-align: center;
         margin-bottom: 10px;
         font-size: 1.2em;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+    }
+
+    h1 {
+        padding: 10px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+        margin-top: 10px;
     }
 }
 
@@ -65,6 +79,8 @@ Grandes Telas: acima de 1200px */
         padding: 10px;
         text-align: center;
         font-size: 2em;
+        margin-bottom: 45px;
+        margin-top: 40px;
     }
     
     h2 {
@@ -73,6 +89,18 @@ Grandes Telas: acima de 1200px */
         margin-bottom: 10px;
         font-size: 1.5em;
     }
+
+    img {
+        width: 220px;
+        height: 220px;
+    }
     
+    h1 {
+        padding: 10px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 70px;
+        margin-top: 10px;
+    }
 }
 

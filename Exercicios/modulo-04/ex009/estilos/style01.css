@@ -16,35 +16,32 @@ Desktop: de 992px até 1200px
 Grandes Telas: acima de 1200px */
 
 * {
-    padding: 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: none; 
+    padding: 0px;
 }
 
-body,html {
+body { 
     background-image: linear-gradient(to bottom, #1D4964, #F26F45);
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    text-align: center;
+    text-align: center; 
     height: 100vh;
     width: 100vw;
 }
 
-main {
+main{
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
     position: relative;
 }
 
 section {
-    position: absolute;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.671);
     padding: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     width: 250px;
-    height: 430px;
+    height: 400px;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -57,61 +54,60 @@ img {
     height: 120px;
 }
 
-
 h1 {
-    padding: 10px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 1.2em;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+form > div.campo {
+    margin: 10px;
 }
 
 input[type="password"], input[type="email"] {
-    width: calc(80% - 10px); /* Largura total menos padding */
+    width: 70%; 
     padding: 10px;
-    margin: 10px 0;
-    border: 1.5px solid #ccc;
+    margin: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 form > input[type=submit] {
     display: block;
-    background-color: #f15f23;
-    border-radius: 10px;
-    color:white;
-    cursor: pointer;
     font-size: 1em;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
-    width: 80%;
-    text-align: center;
-    position: relative;
-    left: 38px;
+    width: 100%;
     height: 30px;
-    margin-top: 10px;
+    background-color: #f15f23;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
+    cursor: pointer;    
+    color: white;
 }
 
-input.botoes:hover {
-    background-color: #c24a1a;
+form > input[type="submit"]:hover {
+    background-color: #c04c1e;
 }
 
 form > a.botao {
     display: block;
     text-align: center;
     font-size: 1em;
-    width: 80%;
-    height: 30px;
+    width: 100%;
+    padding-top: 5px;
+    height: 25px;
     background-color: #f15f23;
-    color: white;
     border: 1px solid #f15f23;
     border-radius: 10px;
+    margin-top: 5px;
     text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    left: 38px;
-    margin-top: 10px;
+    color: white;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.575);
 }
 
-a:hover {
-    background-color: #c24a1a;
+form > a.botao:hover {
+    background-color: #c04c1e;
 }
-

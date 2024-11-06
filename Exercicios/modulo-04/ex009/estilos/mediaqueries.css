@@ -17,23 +17,16 @@ Grandes Telas: acima de 1200px */
 
     section#login > div#imagem {
         float: left;
-        width: 40vw;
+        width: 30vw;
         position: absolute;
         top: 25%;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 50%;
+        width: 60%;
     }
 
-    h1 {
-        padding: 10px;
-        text-align: center;
-        font-size: 1.5em;
-        margin-bottom: 35px;
-    }
-    
     h2 {
         padding: 10px;
         text-align: center;
@@ -50,9 +43,10 @@ Grandes Telas: acima de 1200px */
         padding: 10px;
         text-align: center;
         font-size: 1.2em;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         margin-top: 10px;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -102,5 +96,8 @@ Grandes Telas: acima de 1200px */
         margin-bottom: 70px;
         margin-top: 10px;
     }
+
+
+    
 }
 

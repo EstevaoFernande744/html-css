@@ -16,6 +16,10 @@ header {
     align-items: center;
 }
 
+h1 {
+    text-shadow: 2px 2px 2px black;
+}
+
 nav {
     display: flex;
     flex-flow: row wrap;
@@ -47,6 +51,9 @@ body {
 }
 
 main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     background-color: white;
     border-radius: 10px;
     padding: 20px;
@@ -61,3 +68,4 @@ main > h2 {
     text-indent: 0px;
     padding-bottom: 30px;
 }
+

@@ -535,3 +535,15 @@ flex: 1 1 150px;
 
 flex: flex-grow + flex-shrink + flex-basis;
 
+existe uma configuração padrão que é:
+
+flex: initial; = flex: 0 1 auto;
+
+flex: none; = flex: 0 0 auto;
+
+flex: auto; = flex: 1 1 auto;
+
+flex: a (qualquer número); = flex: a 1 auto;
+
+
+

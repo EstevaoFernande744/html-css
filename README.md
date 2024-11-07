@@ -460,3 +460,68 @@ https://www.qr-code-generator.com/
 https://qr.io/dashboard/
 
 
+
+
+
+
+
+<!-- FLEX BOX -->
+
+Existe um eixo principal nas flexbox chamado de main axis, cada eixo tem 2 pontos, o main axis tem o main-start e main-end que seria ponto de inicio e ponto final.
+
+Também tem o chamado eixo transversal ou cross-axis, que seriam os cross-start e cross-end.
+
+em um desenho simples temos:
+
+main-start------------------------------>main-end
+
+cross-start 
+     |
+     |
+     |
+     |
+     \/
+cross-end 
+
+
+para nosso idioma.
+
+isso para a <!-- flex-direction:row -->;
+
+no caso do <!-- flex-direction: row-reverse -->;;
+
+temos a mudança do main axis:
+
+main-end<------------------------------main-start
+
+em vez de ser da esquerda para a direita ele vai da direita para a esquerda;
+
+para o <!-- Flex direction: column -->;
+
+main-start
+     |
+     |
+     |
+     |
+    \/
+main-end
+
+
+e 
+
+cross-start------------------------------>cross-end
+
+para o <!-- Flex direction: column-reverse -->;
+
+main-end
+    /\
+    |
+    |
+    |
+    |
+main-start
+
+cross-start------------------------------>cross-end
+
+
+

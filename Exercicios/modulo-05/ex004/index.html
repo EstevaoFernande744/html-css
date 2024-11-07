@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.container {
+            background-color: lightcoral;
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: nowrap; */
+            flex-flow: row nowrap;
+            height: 200px;
+            
+            
+            /* PARA ROW */
+
+            /* ALIGN-ITEMS
+
+                STRETCH - Alonga os itens completamento pelo cross-axis;
+                
+                FLEX-START - Vai colar os itens no cross-start;
+
+                FLEX-END - Vai colar os itens no cross-end;
+
+                */
+
+            /* JUSTIFY-CONTENT
+
+                FLEX-START - Cola os itens no main-start;
+
+                FLEX-END - Cola os itens no main-end;
+
+                CENTER - Coloca os itens no centro do container;
+
+                SPACE-BETWEEN - Cola o primeiro item no main-start e o ultimo item no main-end e coloca os demais itens no meio do container com o espaçamento igual entre eles;
+
+                SPACE-EVENLY - Coloca os itens a distancias iguais entre si e as mesmas distancias entre o main-start e main-end;
+
+                SPACE-AROUND - Cria espaços e coloca cada item no centro desses espaços, então vai criar tipo paddings pada cada item pada direita e esquerda;
+            */
+        }
+
+        div.item {
+            background-color: lightskyblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"> A</div>
+        <div class="item"> B</div>
+        <div class="item"> C</div>
+        <div class="item"> D</div>
+        <div class="item"> E</div>
+        <div class="item"> F</div>
+        <div class="item"> G</div>
+    </div>
+</body>
+</html>

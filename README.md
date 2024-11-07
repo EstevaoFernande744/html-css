@@ -523,5 +523,15 @@ main-start
 
 cross-start------------------------------>cross-end
 
+propriedade para os itens chamada flex:
 
+flex é uma shorthand para os comando flex-grow, flex-shrink e flex-basis:
+
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: 150px;
+
+flex: 1 1 150px;
+
+flex: flex-grow + flex-shrink + flex-basis;
 
